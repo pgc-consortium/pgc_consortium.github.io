@@ -1,13 +1,11 @@
 # PGC Consortium Website
-
-# https://pgcconsortium.org/
-
 This is the official website of the **Perennial Groundcover Consortium (PGC Consortium)** — a collaborative effort to advance the use of perennial groundcover in annual row crop systems.  
 It provides information about the consortium’s mission, ongoing projects, publications, and downloadable resources.
 
 ---
 
 ## Overview
+- https://pgcconsortium.org/
 - Built as a static site using [Jekyll](https://jekyllrb.com/) with the Hilton theme.
 - Organized into key sections:
   - **Home** — mission, partners, and team.

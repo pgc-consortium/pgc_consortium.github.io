@@ -6,13 +6,13 @@ It provides information about the consortium’s mission, ongoing projects, publ
 
 ## Overview
 - https://pgcconsortium.org/
-- Built as a static site using [Jekyll](https://jekyllrb.com/) with the Hilton theme.
+- Built as a static site using [Jekyll](https://jekyllrb.com/) with the [Hilton](https://jekyllthemes.io/theme/hilton-portfolio-jekyll-theme) theme.
 - Organized into key sections:
   - **Home** — mission, partners, and team.
   - **Projects** — active and past projects.
   - **Publications** — research and reports.
   - **Sops** — downloadable SOPs, data, and related files.
-  - **Contact** - contact page for questions
+  - **About** - learn about PGC
   - **Contact** — reach out to the consortium.
 
 ---
@@ -27,5 +27,5 @@ It provides information about the consortium’s mission, ongoing projects, publ
 bundle install
 bundle exec jekyll serve --livereload
 Open your browser at: http://127.0.0.1:4000
-
-Built by Bo Meyering & Mirza Sakiroglu
+```
+- Built by Bo Meyering & Mirza Sakiroglu

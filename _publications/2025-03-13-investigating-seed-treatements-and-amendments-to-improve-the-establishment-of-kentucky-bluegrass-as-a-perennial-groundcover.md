@@ -1,0 +1,31 @@
+---
+layout: publication
+title:   Investigating Seed Treatments and Soil Amendments to Improve the Establishment of Kentucky Bluegrass as a Perennial Groundcover
+description: Kentucky bluegrass (KBG) has poor seed establishment in the fall when used as a perennial groundcover in corn production. This study was conducted to investigate the effect of various seed treatments and soil amendments on the establishment of KBG under drought and non-drought conditions, simulated in a growth chamber.
+date:   2025-03-13
+image:  'https://pgcconsortium.nyc3.cdn.digitaloceanspaces.com/seed%20kentucky%20bluegrass.png'
+tags:   [Field Study, Plant Breeding, Yield Impact]
+author: [Jack Moran, A. Susana Goggi , Ken J. Moore, Shui-zhang Fei]
+---
+
+Over the past two centuries, the Midwest landscape in the USA has changed dramatically from predominantly tallgrass prairie to highly productive corn (Zea mays L.) and soybean (Glycine max L.) fields. This farming system has increased soil erosion and water quality issues in regard to the landscape, due to chemical leachates and winter fallow periods [1]. According to the 2017 National Resources Inventory Report, Iowa had the highest soil erosion rate of any other state at 5.8 tons of soil per acre [2]. Over the years, there have been attempts to mitigate these problems through the use of winter annual cover crops; however, the uptake of this system by farmers has been sparse, due to cover crop activities coinciding with cash crop (corn/soybean) sowing and harvesting [3].
+Perennial groundcover (PGC) may provide a potential solution to this problem, wherein perennial grasses like kentucky bluegrass (KBG) (Poa pratensis L.) and perennial ryegrass (PRG) (Lolium perenne L.) are grown alongside cash crops to reduce soil erosion, avoid spring nitrogen loss, and protect the natural ecosystem [4,5]. PGC is planted once and, when managed correctly, the PGC should last many years. Thus, the PGC system has fewer labor requirements compared with an annual cover crop system. As a cool-season grass, KBG has ideal characteristics for use as a PGC. Some of these beneficial characteristics are a low growth habit, rhizome development, summer dormancy, shade tolerance, and good traffic tolerance [6]. When managed correctly, KBG can increase carbon sequestration and help retain soil organic matter [7,8,9]. These characteristics are the reason why KBG is commonly selected as the species of choice for sports turf, lawns, and recreational areas. Cool-season grasses like KBG have active growth periods from March to early May and late August to early November [10]. The periods of inactive growth (or dormancy) coincide with when the cash crop grows most actively.
+
+
+Despite these favorable characteristics, the management of KBG in a turfgrass system differs significantly from its management in a PGC system due to the use of irrigation for turfgrass establishment. Early observations of the PGC system have shown that a lack of soil moisture in the fall, along with slow KBG germination rates, makes it challenging to establish this species as a PGC [6,11,12]. Seed germination-enhancing treatments, such as seed priming, seed coating, and the use of growth-regulating hormones, have been applied for many years in the turf industry to break seed dormancy and enhance germination rates [13,14,15]. Seed coatings create an ideal micro-environment for germination around the seed and may include macro- and micronutrients, which improve germination in poor seed-bed conditions [16]. Hydrophilic polymer coatings offer limited benefits for larger seeded cool-season grasses, but studies have shown positive results for this coating when applied to smaller seeds, such as KBG [17,18]. Seed treatments are reported to improve grass seed establishment, but have not been tested under drought conditions. There is a need for further identification of treatments that improve seed germination in drought conditions. A growth chamber must be used to determine the efficacy of these seed treatments and soil amendments under both water-restricted and unrestricted growing conditions. A growth chamber enables controlled testing of these seed treatments in conditions where soil moisture is the only variable factor.
+
+
+<div class="gallery-box">
+  <div class="gallery">
+    <img src="https://pgcconsortium.nyc3.cdn.digitaloceanspaces.com/image.png" loading="lazy" alt="House">
+  </div>
+</div>
+
+
+The goal of this experiment is to identify a seed treatment or soil amendment capable of expediting seed germination and promoting seedling vigor. To date, much of the research into solutions for improving KBG establishment focuses on sports turf and intensively managed lawns. The application of these solutions to a PGC system could overcome the problem of poor KBG germination due to low soil moisture in the fall. Better established PGC would enhance soil health, and reduce soil erosion and nutrient leaching into waterways, allowing farmers to contribute towards achieving the UN sustainable development goals related to taking climate action, preserving life on land, and improving water quality [19]. Furthermore, this approach would remove the need to resow the PGC in year 2, resulting in reduced annual labor input and increased profit for row-crop farmers [20]. The objective of this study is to evaluate the effectiveness of different seed treatments and soil amendments in regard to improving seed germination and establishment of KBG under drought and non-drought conditions. The results of this research may provide insights that could lead to the development of a more reliable PGC for corn farmers in the Midwest.
+
+### Funding:
+RegenPGC is supported by the Agriculture and Food Research Initiative Competitive Grant no. 2021-68012-35923 from the USDA National Institute of Food and Agriculture. Any opinions, findings, conclusions, or recommendations expressed in this article are those of the authors and do not necessarily reflect the view of the U.S. Department of Agriculture.
+
+### Continue reading:
+[ Investigating Seed Treatments and Soil Amendments to Improve the Establishment of Kentucky Bluegrass as a Perennial Groundcover](https://www.mdpi.com/2674-1024/4/1/16)

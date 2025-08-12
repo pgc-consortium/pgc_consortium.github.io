@@ -1,0 +1,191 @@
+/* Hero */
+.hero {
+  @media only screen and (max-width: $desktop) {
+    padding: 40px 0 0;
+  }
+
+  @media only screen and (max-width: $mobile) {
+    padding: 20px 0 0;
+  }
+}
+
+.hero__inner {
+  display: flex;
+  align-items: center;
+
+  @media only screen and (max-width: $desktop) {
+    flex-direction: column;
+  }
+}
+
+.hero__left {
+  width: 50%;
+
+  @media only screen and (max-width: $desktop) {
+    width: 100%;
+    margin-top: 40px;
+  }
+
+  @media only screen and (max-width: $mobile) {
+    margin-top: 32px;
+  }
+}
+
+.hero__image {
+  position: relative;
+  transform: translate(0);
+  width: 100%;
+  height: 634px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.02);
+  background-color: var(--background-alt-color);
+  user-select: none;
+
+  img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  @media only screen and (max-width: $wide) {
+    height: 484px;
+  }
+
+  @media only screen and (max-width: $desktop) {
+    height: 440px;
+  }
+
+  @media only screen and (max-width: $tablet) {
+    height: 420px;
+  }
+
+  @media only screen and (max-width: $mobile) {
+    height: 280px;
+  }
+}
+
+.hero__right {
+  max-width: 575px;
+  margin-left: auto;
+
+  @media only screen and (max-width: $wide) {
+    max-width: 440px;
+  }
+
+  @media only screen and (max-width: $desktop) {
+    order: -1;
+    max-width: 100%;
+  }
+}
+
+.hero__title {
+  margin-bottom: 48px;
+  font-size: 72px;
+  font-weight: 800;
+  line-height: 1;
+  color: var(--heading-font-color);
+
+  @media only screen and (max-width: $wide) {
+    margin-bottom: 32px;
+    font-size: 60px;
+  }
+
+  @media only screen and (max-width: $mobile) {
+    margin-bottom: 24px;
+    font-size: 36px;
+  }
+}
+
+.hero__description {
+  margin-bottom: 0;
+  font-size: 18px;
+
+  @media only screen and (max-width: $desktop) {
+    font-size: inherit;
+  }
+}
+
+
+/* === Full-Width Video Hero Extension no borders=== */
+.hero__video-wrapper {
+  position: relative;
+  width: 100vw;
+  max-width: 100vw;
+  overflow: hidden;
+}
+
+.hero__video {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  border-radius: 0; /* ← Temporarily disabled */
+  box-shadow: none; /* ← Also optional, can re-enable later */
+
+  video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 0;
+  }
+}
+
+
+.hero__overlay {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+  text-align: center;
+  padding: 0 1rem;
+  width: 100%;
+  max-width: 90%;
+}
+
+.hero__overlay .hero__title {
+  color: white;
+  font-size: 72px;
+  font-weight: 800;
+  line-height: 1.2;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+
+  @media only screen and (max-width: $wide) {
+    font-size: 60px;
+  }
+
+  @media only screen and (max-width: $mobile) {
+    font-size: 36px;
+  }
+}
+/* override bootstrap because why not(or else the video defaults to the bootstrap set with) */
+.hero .container {
+  padding-left: 0;
+  padding-right: 0;
+  margin: 0;
+}
+
+.hero__content {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  text-align: center;
+  padding: 1rem;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.4);
+  max-width: 800px;
+
+  .hero__description {
+    font-size: 20px;
+
+    @media only screen and (max-width: $mobile) {
+      font-size: 16px;
+    }
+  }
+}

@@ -1,0 +1,52 @@
+<!-- begin researchers --> 
+<section class="section researchers animate">
+  <div class="container">
+    <div class="row">
+      <div class="col col-12">
+
+        <div class="section__info">
+          <div class="section__head">
+            <h2 class="section__title">{{ site.data.researchers.researcher__title }}</h2>
+          </div>
+          {% if site.data.researchers.researcher__description %}
+           <p class="section__description">{{ site.data.researchers.researcher__description }}</p>
+          {% endif %}
+        </div>
+
+        <div class="researchers__slider my-slider">
+          {% for researcher__item in site.data.researchers.researcher__items %}
+            <div class="researcher-item">
+              <div class="researcher-content">
+                <div class="client-meta">
+                  {% if researcher__item.image %}
+                    <div class="image-container">
+                      <img class="client-avatar" src="{{ researcher__item.image | relative_url }}" alt="{{ researcher__item.name }}" loading="lazy">
+                    </div>
+                  {% endif %}
+                  <div class="client-info">
+                    {% if researcher__item.name %}
+                      <h3 class="client-name">
+                        {% if researcher__item.link %}
+                          <a href="{{researcher__item.link}}" target="_blank" rel="noopener">{{ researcher__item.name }}</a>
+                        {% else %}
+                          {{ researcher__item.name }}
+                        {% endif %}
+                      </h3>
+                    {% endif %}
+                    {% if researcher__item.designation %}
+                      <p class="client-designation">{{ researcher__item.designation }}</p>
+                    {% endif %}
+                  </div>
+                  {% if researcher__item.content %}
+                    <p class="client-text">{{ researcher__item.content }}</p>
+                  {% endif %}
+                </div>
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>

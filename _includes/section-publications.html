@@ -1,0 +1,40 @@
+{% assign sorted_publications = site.publications | sort: 'date' | reverse %}
+
+<!-- begin publications -->
+<section class="section publications animate">
+  <div class="container">
+    <div class="row">
+      <div class="col col-12">
+        <div class="container__inner">
+
+          <div class="section__info">
+            <div class="section__head">
+              <h2 class="section__title">{{ site.data.settings.publications__settings.publications__title }}</h2>
+            </div>
+            {% if site.data.settings.publications__settings.publications__description %}
+              <p class="section__description">{{ site.data.settings.publications__settings.publications__description }}</p>
+            {% endif %}
+          </div>
+
+          <div class="row">
+            {% if sorted_publications.size > 0 %}
+              {% for publication in sorted_publications offset:0 limit:3 %}
+                {% include article.html publication=publication %}
+              {% endfor %}
+            {% else %}
+              <div class="col col-12">
+                <p>No publications found.</p>
+              </div>
+            {% endif %}
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section__navigation">
+    <a href="{{ '/publications' | relative_url }}" class="button button--primary section-button">See all</a>
+  </div>
+</section>
+<!-- end publications -->

@@ -1,0 +1,39 @@
+---
+layout: default
+title: Publications
+description: Publications related to PGC!
+---
+
+<div class="container">
+  <div class="row">
+    <div class="col col-8 push-2 col-t-12 push-t-0">
+      <div class="page-head">
+        <h1 class="page-title">
+          {% if page.title %}
+            {{ page.title }}
+          {% else %}
+            {{ site.data.settings.publications__settings.publications__title }}
+          {% endif %}
+        </h1>
+        {% if page.description %}
+          <p class="page-description">{{ page.description }}</p>
+        {% else %}
+          <p class="page-description">{{ site.data.settings.publications__settings.publications__description }}</p>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container animate">
+  <div class="row">
+    {% assign pubs = site.publications | sort: 'date' | reverse %}
+    {% if pubs.size > 0 %}
+      {% for pub in pubs %}
+        {% include article.html publication=pub %}
+      {% endfor %}
+    {% else %}
+      <p>No publications found.</p>
+    {% endif %}
+  </div>
+</div>

@@ -1,0 +1,47 @@
+{% assign maxRelated = 3 %}
+{% assign minCommonTags = 1 %}
+{% assign maxRelatedCounter = 0 %}
+
+<!-- begin related publications -->
+<div class="container">
+  <section class="related-posts animate">
+    <div class="row">
+      <div class="col col-12">
+        <div class="container__inner">
+          <div class="section__info">
+            <div class="section__head">
+              <h2 class="section__title">You may also like</h2>
+            </div>
+          </div>
+          <div class="row">
+
+          {% for pub in site.publications %}
+            {% if pub.url != page.url %}
+              {% assign sameTagCount = 0 %}
+              {% assign commonTags = '' %}
+
+              {% for tag in pub.tags %}
+                {% if page.tags contains tag %}
+                  {% assign sameTagCount = sameTagCount | plus: 1 %}
+                  {% capture tagmarkup %}<span class="label label-default">{{ tag }}</span>{% endcapture %}
+                  {% assign commonTags = commonTags | append: tagmarkup %}
+                {% endif %}
+              {% endfor %}
+
+              {% if sameTagCount >= minCommonTags %}
+                {% include article.html publication=pub tag_map=tag_map %}
+                {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
+                {% if maxRelatedCounter >= maxRelated %}
+                  {% break %}
+                {% endif %}
+              {% endif %}
+            {% endif %}
+          {% endfor %}
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+<!-- end related publications -->

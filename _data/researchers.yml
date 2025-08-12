@@ -1,0 +1,168 @@
+# Researchers Section
+researcher__title: Our People
+researcher__description: The team dedicated to the PGC revolution. 
+
+researcher__items:
+  - name: "Raj Raman, Ph.D."
+    image: "https://pgcconsortium.nyc3.cdn.digitaloceanspaces.com/Raj%20Raman.jpeg"
+    designation: "FAB-PGC~REGENPGC"
+    link: "mailto:rajraman@iastate.edu"
+    content: "Professor, Ag & Biosystems Engineering at Iowa State University"
+  
+  - name: "Spencer Barriball"
+    image: "https://pgcconsortium.nyc3.cdn.digitaloceanspaces.com/Spencer%20Headshot.jpg"
+    designation: "FAB-PGC~REGENPGC"
+    link: "mailto:bariball@landinstitute.org"
+    content: "Research Program Manager for Perennial Legumes at The Land Institute"
+
+  - name: "Ken Moore, Ph.D."
+    image: "https://pgcconsortium.nyc3.cdn.digitaloceanspaces.com/Ken%20Moore.jpg"
+    designation: "FAB-PGC~REGENPGC"
+    link: "mailto:kjmoore@iastate.edu"
+    content: "Professor, Agronomy at Iowa State University"
+
+  - name: "Roger Hintz"
+    image: "https://pgcconsortium.nyc3.cdn.digitaloceanspaces.com/Roger%20Hintz.jpg"
+    designation: "FAB-PGC~REGENPGC"
+    link: "mailto:rhintz@iastate.edu"
+    content: "Research Technician at Iowa State University"
+
+  - name: "Mirza Sakiroglu"
+    image: "https://pgcconsortium.nyc3.cdn.digitaloceanspaces.com/Mirza%20Sakiroglu.jpeg"
+    designation: "FAB-PGC"
+    link: "mailto:mirza.s@landinstitute.org"
+    content: "Legumes Research Assistant at The Land Institute"
+
+  - name: "Jamshid Ansari"
+    image: "https://pgcconsortium.nyc3.cdn.digitaloceanspaces.com/Jamshid%20Ansari.jpeg"
+    designation: "FAB-PGC~REGENPGC"
+    link: "mailto:jamshid.ansari@missouri.edu"
+    content: "Research Specialist at University of Missouri"
+
+  - name: "Tomie Galusha"
+    image: "https://pgcconsortium.nyc3.cdn.digitaloceanspaces.com/Tomie%20galusha.jpg"
+    designation: "FAB-PGC"
+    link: "mailto:tgalusha1@unl.edu"
+    content: "Research Technician at University of Nebraska, Lincoln"
+
+  - name: "Tim Osterhaus"
+    image: "https://pgcconsortium.nyc3.cdn.digitaloceanspaces.com/user-4254.png"
+    designation: "FAB-PGC"
+    link: "mailto:tosterhaus@wisc.edu"
+    content: "Research Program Manager at University of Wisconsin, Madison"
+
+  - name: "Nick Yerden"
+    image: "https://pgcconsortium.nyc3.cdn.digitaloceanspaces.com/user-4254.png"
+    designation: "FAB-PGC"
+    link: "mailto:nyerden@wisc.edu"
+    content: "Research Specialist at University of Wisconsin, Madison"
+
+  - name: "Andrea Basche"
+    image: "https://pgcconsortium.nyc3.cdn.digitaloceanspaces.com/Andrea%20Basche.jpg"
+    designation: "FAB-PGC"
+    link: "mailto:abasche2@unl.edu"
+    content: "Associate Professor, Agronomy and Horticulture at University of Nebraska, Lincoln"
+
+  - name: "Marshall McDaniel"
+    image: "https://pgcconsortium.nyc3.cdn.digitaloceanspaces.com/Marshall%20mcdaniel.jpg"
+    designation: "FAB-PGC~REGENPGC"
+    link: "mailto:marsh@iastate.edu"
+    content: "Associate Professor, Agronomy - Soil Science at Iowa State University"
+
+  - name: "Morgan Davis"
+    image: "https://pgcconsortium.nyc3.cdn.digitaloceanspaces.com/Morgan%20Davis.jpg"
+    designation: "FAB-PGC~REGENPGC"
+    link: "mailto:mpdavis@missouri.edu"
+    content: "Asst Professor, Soil & Environmental Sciences at University of Missouri"
+
+  - name: "Natalia DeLeon"
+    image: "https://pgcconsortium.nyc3.cdn.digitaloceanspaces.com/Natalia%20De%20Leon.jpg"
+    designation: "FAB-PGC"
+    link: "mailto:ndeleongatti@wisc.edu"
+    content: "Professor, Plant and Agroecosystem Sciences at University of Wisconsin, Madison"
+
+  - name: "Malcolm St Cyr"
+    image: "https://pgcconsortium.nyc3.cdn.digitaloceanspaces.com/Malcolm%20St.%20Cyr.jpg"
+    designation: "FAB-PGC~REGENPGC"
+    link: "mailto:mystcyr@iastate.edu"
+    content: "MS Candidate at Iowa State University"
+
+  - name: "Modestos Modestou"
+    image: "https://pgcconsortium.nyc3.cdn.digitaloceanspaces.com/Modestos%20Modestou.jpg"
+    designation: "FAB-PGC~REGENPGC"
+    link: "mailto:modestou@iastate.edu"
+    content: "PhD candidate at Iowa State University"
+
+  - name: "Somdatta Achar"
+    image: "https://pgcconsortium.nyc3.cdn.digitaloceanspaces.com/Somdatta%20Achar.jpg"
+    designation: "FAB-PGC"
+    link: "mailto:sachar2@huskers.unl.edu"
+    content: "PhD candidate at University of Nebraska, Lincoln"
+
+  - name: "Sidath Mendis"
+    image: "https://pgcconsortium.nyc3.cdn.digitaloceanspaces.com/Sidath%20Subodha%20Mendis.jpeg"
+    designation: "FAB-PGC"
+    link: "mailto:sidathmendis@missouri.edu"
+    content: "PhD candidate at University of Missouri"
+
+  - name: "Brandon Schlautman"
+    image: "https://pgcconsortium.nyc3.cdn.digitaloceanspaces.com/Brandon%20Headshot.jpg"
+    designation: "FAB-PGC~REGENPGC"
+    link: "mailto:schlautman@landinstitute.org"
+    content: "Lead Scientist at The Land Institute"
+
+  - name: "Daniel Andersen"
+    image: "https://pgcconsortium.nyc3.cdn.digitaloceanspaces.com/Daniel%20Andersen.jpg"
+    designation: "FAB-PGC~REGENPGC"
+    link: "mailto:dsa@iastate.edu"
+    content: "Associate Professor, Manure Management and Water Quality at Iowa State University"
+
+  - name: "Cyndi Bartel"
+    image: "https://pgcconsortium.nyc3.cdn.digitaloceanspaces.com/Cynthia%20Bartel.jpeg"
+    designation: "FAB-PGC~REGENPGC"
+    link: "mailto:cabartel@iastate.edu"
+    content: "Research Scientist at Iowa State University"
+
+  - name: "Rob Anex"
+    image: "https://pgcconsortium.nyc3.cdn.digitaloceanspaces.com/Rob%20Anex.jpg"
+    designation: "FAB-PGC~REGENPGC"
+    link: "mailto:anex@wisc.edu"
+    content: "Professor, Biological Systems Engineering at University of Wisconsin, Madison"
+
+  - name: "Steven Bly"
+    image: "https://pgcconsortium.nyc3.cdn.digitaloceanspaces.com/user-4254.png"
+    designation: "FAB-PGC~REGENPGC"
+    link: "mailto:steve.bly@poet.com"
+    content: "Bioproducts Research Director at POET Bioprocessing"
+
+  - name: "Bo Meyering"
+    image: "https://pgcconsortium.nyc3.cdn.digitaloceanspaces.com/Bo_profilepic.png"
+    designation: "FAB-PGC~REGENPGC"
+    link: "mailto:meyering@landinstitute.org"
+    content: "Applications Developer at The Land Institute"
+
+  - name: "Andy Vickers"
+    image: "https://pgcconsortium.nyc3.cdn.digitaloceanspaces.com/Andy%20Vickers.jpeg"
+    designation: "FAB-PGC"
+    link: "mailto:andy.vickers@poet.com"
+    content: "Bioproducts Research at POET Bioprocessing"
+
+  - name: Amani Elobeid, PhD
+    image: "https://pgcconsortium.nyc3.cdn.digitaloceanspaces.com/Amani%20Elobeid.jpg"
+    designation: "REGENPGC"
+    content: Teaching Professor, Economics at Iowa State University
+
+  - name: Shuizhang (Fei) Fei, PhD
+    image: "https://pgcconsortium.nyc3.cdn.digitaloceanspaces.com/Shui-zhang%20Fei.jpg"
+    designation: "REGENPGC"
+    content: Professor, Grass Genetics and Breeding at Iowa State University
+
+  - name: Cornelia (Neal) Flora, PhD (1943-2025)
+    image: "https://pgcconsortium.nyc3.cdn.digitaloceanspaces.com/Cornelia%20Butler%20Flora.jpg"
+    designation: "REGENPGC"
+    content: Co-Pd Socioeconomic Impacts and Policy
+
+  - name: Susana Goggi, PhD
+    image: "https://pgcconsortium.nyc3.cdn.digitaloceanspaces.com/Susana%20Goggi.jpg"
+    designation: "REGENPGC"
+    content: Professor, Agronomy & Seed Science at Iowa State University

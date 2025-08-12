@@ -1,0 +1,133 @@
+#-------------------------------
+# Site Settings
+title: PGC Consortium
+logo: # You can add own logo. For example '/images/logo.png'.
+description: The PGC Consortium is a collective of scientific researchers and policy makers dedicated to the advancement of perennial cover crops for annual row crop production systems.
+color_scheme: auto # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
+
+
+#-------------------------------
+# Navigation Settings
+menu__settings:
+  menu__items:
+    - title: 'Home'
+      url: '/'
+    - title: 'Projects'
+      url: '/projects/'
+    - title: 'Publications'
+      url: '/publications/'
+    - title: 'Pages'
+      submenu:
+      - url: '/about/'
+        title: 'About'
+      - url: '/contact/'
+        title: 'Contact'
+      - url: '/sops/'
+        title: 'SOPs'
+
+
+#-------------------------------
+# Author Settings
+author:
+  author__name: Bo Meyering
+  author__bio: I'm a data scientist and applications developer engaged in plant breeding and basic plant science research.
+  author__avatar:
+
+social:
+- {icon: "fa-brands fa-x-twitter", link: "https://twitter.com"}
+- {icon: "fa-brands fa-square-facebook", link: "https://facebook.com"}
+- {icon: "fa-brands fa-instagram", link: "https://instagram.com"}
+- {icon: "fa-brands fa-pinterest", link: "https://pinterest.com"}
+- {icon: "fa-brands fa-github", link: "https://github.com"}
+
+# Example of adding a new link to the footer - {icon: "fa-brands fa-dribbble", link: "https://dribbble.com"}
+# Other icons can be found at https://fontawesome.com/icons
+
+
+#-------------------------------
+# Hero Settings
+hero:
+  hero__title: The PGC Revolution Has Started 
+  hero__description: 
+  hero__image:
+
+
+#-------------------------------
+# Newsletter
+mailchimp: enable # To enable the mailchimp form, use the value 'enable'. To disable the form, leave the field blank.
+mailchimp__identifier: gmail.us21.list-manage.com/subscribe/post?u=8aeb9c31a5c97a3a5f9ff2740&amp;id=0e31fd7793&amp # Add your MailChimp form identifier. For example - gmail.us21.list-manage.com/subscribe/post?u=8aeb9c31a5c97a3a5f9ff2740&amp;id=0e31fd7793&amp
+mailchimp__input__text: Your email address...
+mailchimp__button__text: Get updates
+
+
+#-------------------------------
+# Projects Settings
+projects__settings:
+  projects__title: Latest PGC Projects
+  projects__description: What the world is up to!
+
+#-------------------------------
+# Publications
+publications__settings:
+  publications__title: Recent Publications
+  publications__description:
+
+
+#-------------------------------
+# Gallery Footer Settings
+gallery:
+  gallery__images:
+    - alt: 'Kentucky Bluegrass Seed'
+      url: 'https://pgcconsortium.nyc3.cdn.digitaloceanspaces.com/kbg_seed_cropped.jpg'
+    - alt: 'Planting the Field'
+      url: 'https://pgcconsortium.nyc3.cdn.digitaloceanspaces.com/planter_cropped.jpeg'
+    - alt: 'Corn and Soybean at Emergence'
+      url: 'https://pgcconsortium.nyc3.cdn.digitaloceanspaces.com/corn_soybean_VE_cropped.jpg'
+    - alt: 'Establishing PGC in the field'
+      url: 'https://pgcconsortium.nyc3.cdn.digitaloceanspaces.com/PGC_establishment_cropped.jpg'
+    - alt: 'Corn at V6 in KBG'
+      url: 'https://pgcconsortium.nyc3.cdn.digitaloceanspaces.com/corn_v6_cropped.jpg'
+    - alt: 'Corn tasseling at sundown'
+      url: 'https://pgcconsortium.nyc3.cdn.digitaloceanspaces.com/corn_tassel_2_cropped.jpg'
+    - alt: 'PGC Height'
+      url: 'https://pgcconsortium.nyc3.cdn.digitaloceanspaces.com/PGC_height_cropped.jpg'
+    - alt: 'Harvest Time'
+      url: 'https://pgcconsortium.nyc3.cdn.digitaloceanspaces.com/harvest_cropped.jpg'
+
+
+#-------------------------------
+# Footer Navigation Settings
+# footer_menu__settings:
+#  menu__items:
+#    - title: 'Home'
+#      url: '/'
+#    - title: 'Projects'
+#      url: '/projects/'
+#    - title: 'Publications'
+#      url: '/publications/'
+#    - url: '/about/'
+#      title: 'About'
+#    - url: '/contact/'
+#      title: 'Contact'
+#    - url: '/sops/'
+#      title: 'SOPs'
+
+
+#-------------------------------
+# Contact Settings
+contact:
+  form_id: xblyjerg # Add your form_id
+  description: Got questions? Curious about implementing perennial cover crops on your farm? Want to know where to start? Reach out to our project admin so we can route you to the experts! # Add a description of your form
+
+# NOTE
+# Hilton theme comes with a contact form built-in. You can use this form with Formspree (https://formspree.io/) service and get up to 50 submissions for free. Also, you can easily switch to another service if you want.
+
+
+#-------------------------------
+# Comment Section (Disqus)
+disqus-identifier: anvodstudio-demo # Add your shortname for Disqus Comment. For example anvodstudio-demo
+
+
+#-------------------------------
+# Google Analytics
+google-analytics: G-8PE4QJ8WX8 # Add your GA Tracking Id

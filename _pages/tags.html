@@ -1,0 +1,108 @@
+---
+layout: default
+title: Tags
+permalink: /tags/
+---
+
+{% assign tag_names = "" | split: "" %}
+{% for publication in site.publications %}
+  {% if publication.tags %}
+    {% for raw_tag in publication.tags %}
+      {% assign tag = raw_tag | downcase | strip %}
+      {% unless tag_names contains tag %}
+        {% assign tag_names = tag_names | push: tag %}
+      {% endunless %}
+    {% endfor %}
+  {% endif %}
+{% endfor %}
+
+{% assign tag_words = tag_names | sort %}
+
+<section class="tags">
+
+  {% for tag in tag_words %}
+    {% assign tag_id = tag | replace: ' ', '-' | replace: '.', '' | replace: ',', '' %}
+    <div class="tags__inner is-hidden" id="{{ tag_id }}">
+      <div class="container">
+        <div class="row">
+          <div class="col col-12">
+            <div class="tag__info">
+              <h2 class="tag__name">{{ tag }}</h2>
+              {% assign pub_count = 0 %}
+              {% for publication in site.publications %}
+                {% if publication.tags %}
+                  {% assign tag_found = false %}
+                  {% for ptag in publication.tags %}
+                    {% assign ptag_norm = ptag | downcase | strip %}
+                    {% if ptag_norm == tag %}
+                      {% assign tag_found = true %}
+                    {% endif %}
+                  {% endfor %}
+                  {% if tag_found %}
+                    {% assign pub_count = pub_count | plus: 1 %}
+                  {% endif %}
+                {% endif %}
+              {% endfor %}
+              <div class="tag__counter">
+                {{ pub_count }} {% if pub_count == 1 %}publication{% else %}publications{% endif %}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container animate">
+        <div class="row">
+          {% for publication in site.publications %}
+            {% if publication.tags %}
+              {% assign tag_found = false %}
+              {% for ptag in publication.tags %}
+                {% assign ptag_norm = ptag | downcase | strip %}
+                {% if ptag_norm == tag %}
+                  {% assign tag_found = true %}
+                {% endif %}
+              {% endfor %}
+              {% if tag_found %}
+                {% include article.html publication=publication %}
+              {% endif %}
+            {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+
+    </div>
+  {% endfor %}
+
+</section>
+
+<script>
+var params = new URLSearchParams(window.location.search);
+var tag_name = params.get('tag');
+
+var allTagContainers = document.querySelectorAll('.tags__inner');
+allTagContainers.forEach(function(el) {
+  el.classList.add('is-hidden');
+});
+
+if (tag_name) {
+  tag_name = tag_name
+    .trim()
+    .toLowerCase()
+    .replace(/[.,]/g, '')  // remove periods, commas
+    .replace(/\s+/g, '-'); // spaces to hyphens
+
+  var el = document.getElementById(tag_name);
+  if (el) {
+    el.classList.remove('is-hidden');
+  } else {
+    console.warn('No tag container found for:', tag_name);
+    if (allTagContainers.length > 0) {
+      allTagContainers[0].classList.remove('is-hidden');
+    }
+  }
+} else {
+  if (allTagContainers.length > 0) {
+    allTagContainers[0].classList.remove('is-hidden');
+  }
+}
+</script>
